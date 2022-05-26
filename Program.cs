@@ -5,4 +5,4 @@ var teacherName = Console .ReadLine();
 Console.WriteLine($"Hello, {teacherName}!  How are you today?");
 var feelingName = Console .ReadLine();
 
-Console.WriteLine($"Glad to hear it {feelingName}!");
+Console.WriteLine($"Glad to hear it {teacherName}!");
