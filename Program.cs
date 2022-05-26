@@ -8,4 +8,8 @@ var feelingName = Console .ReadLine();
 Console.WriteLine($"Why do you feel {feelingName} {teacherName}?");
 var descriptionName = Console .ReadLine();
 
-Console.WriteLine($"So you said {descriptionName}, anytying i can to to make you feel better?");
+Console.WriteLine($"So you said '{descriptionName}', anytying i can to to make you feel better?");
+var responseName = Console .ReadLine();
+
+Console.WriteLine($"What kind of {responseName} do you want, we have the following options");
+    Console.WriteLine($"1a Peperoni, 2b Sausage");
