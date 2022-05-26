@@ -13,15 +13,16 @@ var responseName = Console .ReadLine();
 
 Console.WriteLine($"What kind of {responseName} do you want, we have the following options");
     Console.WriteLine($"type 1 for peperoni, and 2 Sausage");
-var Pizzatype = Console .ReadLine()
+var Pizzatype = Console .ReadLine();
 
-int Pizzatype= 1;
-    {
-        Console.WriteLine($" Thank you for choosing peperoni");
-    }
-    else
-    {   
-        Console.WriteLine($"Thank you for choosing sausage");
-        }
+if (1<2)
+{
+   Console.WriteLine($"Thank you for choosing peperoni");
+}
+
+if (2>1)
+{
+    Console.WriteLine($"Thank you for choosing sausage");
+}
 
    
