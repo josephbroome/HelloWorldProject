@@ -12,10 +12,17 @@ Console.WriteLine($"So you said '{descriptionName}', anytying i can to to make y
 var responseName = Console .ReadLine();
 
 Console.WriteLine($"What kind of {responseName} do you want, we have the following options");
-    Console.WriteLine($"type one for peperoni, and two Sausage");
+    Console.WriteLine($"type 1 for peperoni, and 2 Sausage");
 var choice1 = Console .ReadLine(); var choice2 = Console .ReadLine();
 
+if (1<2)
+{
+    Console.WriteLine($"So you choose peproni, what size do you want");
+}
 
-   
+if (2>1)
+{
+    Console.WriteLine($"So you choose sausage, what side do you want");
+}
 
    
