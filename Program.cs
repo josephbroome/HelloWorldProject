@@ -13,8 +13,7 @@ var responseName = Console .ReadLine();
 
 Console.WriteLine($"What kind of {responseName} do you want, we have the following options");
     Console.WriteLine($"type one for peperoni, and two Sausage");
-var choice1 = Console .ReadLine();
-var choice2 = Console .ReadLine();
+var choice1 = Console .ReadLine(); var choice2 = Console .ReadLine();
 
 
    
