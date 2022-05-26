@@ -12,4 +12,11 @@ Console.WriteLine($"So you said '{descriptionName}', anytying i can to to make y
 var responseName = Console .ReadLine();
 
 Console.WriteLine($"What kind of {responseName} do you want, we have the following options");
-    Console.WriteLine($"1a Peperoni, 2b Sausage");
+    Console.WriteLine($"type one for peperoni, and two Sausage");
+var choice1 = Console .ReadLine();
+var choice2 = Console .ReadLine();
+
+
+   
+
+   
