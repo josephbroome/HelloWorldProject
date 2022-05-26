@@ -2,4 +2,4 @@
 Console.WriteLine($"Hi, Enter your name below:");
 var teacherName = Console .ReadLine();
 
-Console.WriteLine($"Hello, {teacherName}!  How are you today?");Console.WriteLine("Hello, Everyone!");
+Console.WriteLine($"Hello, {teacherName}!  How are you today?");
